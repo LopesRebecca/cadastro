@@ -1,4 +1,4 @@
-package com.cadastro.cadastro;
+package com.cadastro.cadastroEventos;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

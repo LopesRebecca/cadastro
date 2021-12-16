@@ -1,4 +1,4 @@
-package com.cadastro.cadastro;
+package com.cadastro.cadastroEventos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
