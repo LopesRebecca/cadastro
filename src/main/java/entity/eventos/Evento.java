@@ -1,6 +1,6 @@
 package entity.eventos;
 
-import entity.pessoas.EnderecoPessoa;
+import entity.eventos.EnderecoEvento;
 
 public class Evento {
 
@@ -10,7 +10,8 @@ public class Evento {
     private String codigo;
     private EnderecoEvento endereco = new EnderecoEvento();
 
-    public Evento(){}
+    public Evento() {
+    }
 
     public Evento(String nome, String data, String horario, EnderecoEvento endereco) {
         this.nome = nome;
@@ -58,6 +59,6 @@ public class Evento {
     }
 
     public void setEndereco(String cidade, String cep, String numero) {
-        this.endereco = new EnderecoEvento(cidade,cep,numero);
+        this.endereco = new EnderecoEvento(cidade, cep, numero);
     }
 }
